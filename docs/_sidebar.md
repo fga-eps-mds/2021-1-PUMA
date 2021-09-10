@@ -1,4 +1,5 @@
 <!-- docs/_sidebar.md -->
 - [Página Inicial](/)
-- **Produto**
-  - [Backlog do Produto](/produto/backlog-do-produto.md)
+- **Planejamento**
+  - [Visão do Produto](/planejamento/visao-do-produto.md)
+  - [Backlog do Produto](/planejamento/backlog-do-produto.md)
