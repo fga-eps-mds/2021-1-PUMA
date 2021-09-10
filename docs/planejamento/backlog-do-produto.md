@@ -3,6 +3,7 @@
 |--|--|--|--|
 | 03/09/2021 | 0.9 | Artur Vinicius, Eduardo Lima, Gabriel Tiveron, João Pedro, Luís Taira, Samuel Pereira | Criação do documento |
 | 08/09/2021 | 1.0 | Eduardo Lima, Gabriel Tiveron, João Pedro, Luís Taira, Samuel Pereira | Adição de features e PBIs |
+| 10/09/2021 | 1.1 | Eduardo Lima, Gabriel Tiveron, Luís Taira, Samuel Pereira, Nícolas, Giulia e Artur | Adição de features e PBIs |
 
 ## Histórias de Usuário
 | Número | Eu, como | posso | para |
@@ -10,6 +11,8 @@
 | US01 | Usuário | fazer cadastro | ter acesso ao PUMA |
 | US02 | Usuário | fazer login | acessar o PUMA |
 | US03 | Agente Externo | registrar proposta de projeto | resolver um problema |
+| US04 | Professor | visualizar uma proposta | avaliá-la |
+| US05 | Usuário | redefinir minha senha | continuar tendo acesso à minha conta |
 
 # Feature
 
@@ -22,6 +25,8 @@
         - Ter acesso a página de cadastro do usuário (Prioridade 4)
         - Preencher ficha de cadastro do usuário (Prioridade 4)
         - Submeter ficha completa do cadastro do usuário (Prioridade 4)
+    - Histórias de usuário
+        - US01 - Eu como usuário porsso fazer cadastro para ter acesso ao PUMA.
 
 - Registro de proposta
     - Problema:
@@ -34,12 +39,16 @@
         - Navegar até a página de registro (Prioridade 4)
         - Preencher ficha de registro de proposta (Prioridade 4)
         - Submeter ficha completa de proposta (Prioridade 4)
+    - Histórias de usuário
+        - US02 - Eu como usuário posso fazer login para acessar o PUMA.
 
 - Login
     - PBI:
         - Ter acesso a página de usuário (Prioridade 7)
         - Fornecer dados de usuário (Prioridade 7)
         - Ser direcionado ao sistema (Prioridade 7)
+    - Histórias de usuário
+        - US03 - Eu como agente externo posso registrar proposta de projeto para resolver um problema.
 
 - Avaliação de proposta
     - Problema:
@@ -49,6 +58,8 @@
     - PBI:
         - Identificar o agente responsável pelo projeto (Prioridade 7)
         - Visualizar a descrição do projeto (Prioridade 7)
+    - Histórias de usuário
+        - US04 - Eu como professor posso visualizar uma proposta para avaliá-la.
 
 - Recuperação de senha
     - Problema:
@@ -57,6 +68,8 @@
         - Ter a possibilidade de recuperar a senha
     - PBI:
         - Enviar um e-mail de confirmação de recuperação de senha (Prioridade 8)
+    - Histórias de usuário
+        - US05 - Eu como usuário posso redefinir minha senha para continuar tendo acesso à minha conta.
 
 - CRUD de disciplinas
     - Problema:
