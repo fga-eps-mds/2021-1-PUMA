@@ -52,7 +52,7 @@ Este documento visa documentar os riscos que afetam a realização do projeto, a
 
 ## Probabilidade x Impacto
 
-Probabilidade | % de certeza | Peso
+| Probabilidade | % de certeza | Peso |
 |--|--|--|
 | Nula | 0% | 0 |
 | Muito baixa | 0 a 20% | 1 |
@@ -61,7 +61,7 @@ Probabilidade | % de certeza | Peso
 | Alta | 60 a 80% | 4 |
 | Muito alta | 80 a 100% | 5 |
 
-Impacto | Impacto sobre o Custo Original (%) | Peso
+| Impacto | Impacto sobre o Custo Original (%) | Peso |
 |--|--|--|
 | Nulo | 0% | 0 |
 | Muito baixo | 1 a 5% | 1 |
