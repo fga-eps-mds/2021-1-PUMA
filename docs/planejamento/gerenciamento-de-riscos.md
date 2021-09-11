@@ -9,7 +9,7 @@
 | Luís Taira |
 
 ## Escopo
-Este documento visa 
+Este documento visa documentar os riscos que afetam a realização do projeto, analizar seus impactos e registrar o plano de contingência para a ocorrência de cada risco.
 
 ## Riscos e suas consequências
 
@@ -54,21 +54,21 @@ Este documento visa
 
 Probabilidade | % de certeza | Peso
 |--|--|--|
-Nula | 0% | 0
-Muito baixa | 0 a 20% | 1
-Baixa | 20 a 40% | 2
-Média | 40 a 60% | 3
-Alta | 60 a 80% | 4
-Muito alta | 80 a 100% | 5
+| Nula | 0% | 0 |
+| Muito baixa | 0 a 20% | 1 |
+| Baixa | 20 a 40% | 2 |
+| Média | 40 a 60% | 3 |
+| Alta | 60 a 80% | 4 |
+| Muito alta | 80 a 100% | 5 |
 
 Impacto | Impacto sobre o Custo Original (%) | Peso
 |--|--|--|
-Nulo | 0% | 0
-Muito baixo | 1 a 5% | 1
-Baixo | 5 a 10% | 2
-Médio | 10 a 15% | 3
-Alto | 15 a 20% | 4
-Muito alto | Acima de 20% | 5
+| Nulo | 0% | 0 |
+| Muito baixo | 1 a 5% | 1 |
+| Baixo | 5 a 10% | 2 |
+| Médio | 10 a 15% | 3 |
+| Alto | 15 a 20% | 4 |
+| Muito alto | Acima de 20% | 5 |
 
 ### O grau de risco é definido pela multiplicação da probabilidade pelo impacto. Conforme tabela abaixo:
 
