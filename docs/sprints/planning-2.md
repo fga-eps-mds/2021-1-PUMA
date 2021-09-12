@@ -26,8 +26,7 @@ Reunião realizada em 10/9/2021
 | Issue | Responsável |
 |--|--|
 | US04 - Eu como professor posso visualizar uma proposta para avaliá-la | Artur e Nícolas |
-| US05 - Eu como usuário posso redefinir minha senha para continuar tendo acesso à minha conta | Giulia e Levi) |
-| US03 - Eu como agente externo posso registrar proposta de projeto para resolver um problema | Levi e Nícolas |
+| US05 - Eu como usuário posso redefinir minha senha para continuar tendo acesso à minha conta | Giulia e Levi |
 
 ## Issues para o time de EPS
 
