@@ -6,4 +6,4 @@
   - [Backlog do Produto](/planejamento/backlog-do-produto.md)
   - [Plano de Gerenciamento de Riscos](/planejamento/gerenciamento-de-riscos.md)
 
-- [Banco de dados](/bancodedados/banco-de-dados.md)
+- [Banco de dados](/bancodedados/bancos-de-dados.md)
