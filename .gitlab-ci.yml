@@ -17,6 +17,7 @@ metrics-job:
     - python3 sonar_cloud_consumer.py $CI_COMMIT_SHORT_SHA
     - echo "Compile complete."
   after_script:
+    - echo ${CI_EMAIL} ${CI_USERNAME}
     - git config --global user.email "${CI_EMAIL}"
     - git config --global user.name "${CI_USERNAME}"
     - git add .
