@@ -1,8 +1,8 @@
 <!-- docs/_sidebar.md -->
 - [Página Inicial](/)
 - **Produto**
-  - [Backlog do Produto](/produto/backlog-do-produto.md)
-  - [Documento de arquitetura](/produto/doc-de-arquitetura.md)
+  - [Backlog do Produto](/planejamento/backlog-do-produto.md)
+  - [Documento de arquitetura](/planejamento/doc-de-arquitetura.md)
 - **Planejamento**
   - [Plano de Comunicação](/planejamento/plano-de-comunicacao.md)
   - [Visão do Produto](/planejamento/visao-do-produto.md)
