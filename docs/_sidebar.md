@@ -7,6 +7,7 @@
   - [Plano de Comunicação](/planejamento/plano-de-comunicacao.md)
   - [Visão do Produto](/planejamento/visao-do-produto.md)
   - [Plano de Gerenciamento de Riscos](/planejamento/gerenciamento-de-riscos.md)
+  - [Guia de Identidade Visual](/planejamento/identidade-visual.md)
 - **Sprints**
   - **Sprint 1**
     - [Planejamento Sprint 1](/sprints/planning-1.md)
