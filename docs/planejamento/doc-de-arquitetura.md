@@ -2,9 +2,10 @@
 
 | Data | Versão | Modificação | Autor |
 | :-- | :-- | :-- | :-- |
-| 9/09/2021 | 0.6 | Criação do documento e adição da introdução | João Pedro |
-| 13/09/2021 | 0.7 | Adição das tecnologias | Artur |
-| 13/09/2021 | 0.8 | Adição dos diagramas de pacotes | Artur e Levi |
+| 9/09/2021 | 0.5 | Criação do documento e adição da introdução | João Pedro |
+| 13/09/2021 | 0.6 | Adição das tecnologias | Artur |
+| 13/09/2021 | 0.7 | Adição dos diagramas de pacotes | Artur e Levi |
+| 13/09/2021 | 0.8 | Criação do esboço da arquitetura | Eduardo |
 | 13/09/2021 | 0.9 | Adição do diagrama de relações, restrições arquiteturais | Luís |
 | 13/09/2021 | 1.0 | Adição da representação dos microsserviços | Tiveron |
 
