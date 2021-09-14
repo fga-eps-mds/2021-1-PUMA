@@ -15,12 +15,10 @@ metrics-job:
     - pip3 install -r requirements.txt
   script:
     - python3 sonar_cloud_consumer.py $CI_COMMIT_SHORT_SHA
-    - echo "Compile complete."
-  after_script:
-    - echo ${CI_EMAIL} ${CI_USERNAME}
     - git config --global user.email "${CI_EMAIL}"
     - git config --global user.name "${CI_USERNAME}"
     - git add .
     - git commit -m "Generating sonarcloud metrics"
     - git remote rm origin && git remote add origin git@gitlab.com:$CI_PROJECT_PATH.git
     - git push origin HEAD:$CI_COMMIT_REF_NAME
+    - echo "Compile complete."
