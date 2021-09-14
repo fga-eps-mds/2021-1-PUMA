@@ -14,6 +14,7 @@ metrics-job:
     - '[[ -f /.dockerenv ]] && echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config'
     - pip3 install -r requirements.txt
   script:
+    - echo ${CI_EMAIL}
     - python3 sonar_cloud_consumer.py $CI_COMMIT_SHORT_SHA
     - git config --global user.email "${CI_EMAIL}"
     - git config --global user.name "${CI_USERNAME}"
