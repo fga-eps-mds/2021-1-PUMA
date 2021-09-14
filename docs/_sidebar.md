@@ -3,3 +3,14 @@
 - **Produto**
   - [Backlog do Produto](/produto/backlog-do-produto.md)
   - [Documento de arquitetura](/produto/doc-de-arquitetura.md)
+- **Planejamento**
+  - [Plano de Comunicação](/planejamento/plano-de-comunicacao.md)
+  - [Visão do Produto](/planejamento/visao-do-produto.md)
+  - [Plano de Gerenciamento de Riscos](/planejamento/gerenciamento-de-riscos.md)
+- **Sprints**
+  - **Sprint 1**
+    - [Planejamento Sprint 1](/sprints/planning-1.md)
+    - [Resultados Sprint 1](/sprints/review-1.md)
+  - **Sprint 2**
+    - [Planejamento Sprint 2](/sprints/planning-2.md)
+- [Banco de dados](/bancodedados/bancos-de-dados.md)

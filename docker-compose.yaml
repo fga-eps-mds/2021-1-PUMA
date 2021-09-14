@@ -1,0 +1,98 @@
+version: "3"
+services:
+    db:
+        image: postgres
+        environment:
+            POSTGRES_PASSWORD: ${DB_PASS}
+            POSTGRES_USER: ${DB_USER}
+            POSTGRES_DB: ${DB}
+            DATABASE_URL: ${DB_URL}
+        volumes:
+            - ./dbdata:/var/lib/postgresql/data
+        ports:
+            - "5432:5432"
+        networks:
+            - puma-network
+    project-service:
+        container_name: project-service
+        build:
+            context: .
+            dockerfile: ./project-service/dev.Dockerfile
+        ports:
+            - "3000:3000"
+        depends_on:
+            - db
+        volumes:
+            - ./project-service:/app
+            - /app/node_modules
+        networks:
+            - puma-network
+    user-service:
+        container_name: user-service
+        build:
+            context: .
+            dockerfile: ./user-service/dev.Dockerfile
+        ports:
+            - "3001:3001"
+        depends_on:
+            - db
+        volumes:
+            - ./user-service:/app
+            - /app/node_modules
+        networks:
+            - puma-network
+    alocate-service:
+        container_name: alocate-service
+        build:
+            context: .
+            dockerfile: ./alocate-service/dev.Dockerfile
+        ports:
+            - "3002:3002"
+        depends_on:
+            - db
+        volumes:
+            - ./alocate-service:/app
+            - /app/node_modules
+        networks:
+            - puma-network
+    notify-service:
+        container_name: notify-service
+        build:
+            context: .
+            dockerfile: ./notify-service/dev.Dockerfile
+        ports:
+            - "3003:3003"
+        depends_on:
+            - db
+        volumes:
+            - ./notify-service:/app
+            - /app/node_modules
+        networks:
+            - puma-network
+    api-gateway:
+        container_name: api-gateway
+        build:
+            context: ./api-gateway
+            dockerfile: ./dev.Dockerfile
+        ports:
+            - "3004:3004"
+        volumes:
+            - ./api-gateway:/app
+            - /app/node_modules
+        networks:
+            - puma-network
+    frontend:
+        container_name: frontend
+        build:
+            context: ./frontend/puma
+            dockerfile: ./dev.Dockerfile
+        ports:
+            - "8080:8080"
+        volumes:
+            - ./frontend/puma:/app
+            - /app/node_modules
+        networks:
+            - puma-network
+            
+networks:
+    puma-network:            
