@@ -8,6 +8,8 @@
   - [Visão do Produto](/planejamento/visao-do-produto.md)
   - [Plano de Gerenciamento de Riscos](/planejamento/gerenciamento-de-riscos.md)
   - [Guia de Identidade Visual](/planejamento/identidade-visual.md)
+  - [Protótipo de Baixa Fidelidade](/planejamento/prototipo-baixa.md)
+  - [Protótipo de Alta Fidelidade](/planejamento/prototipo-alta.md)
 - **Sprints**
   - **Sprint 1**
     - [Planejamento Sprint 1](/sprints/planning-1.md)

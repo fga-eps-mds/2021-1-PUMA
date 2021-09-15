@@ -1,7 +1,8 @@
 # Documento de Identidade Visual
 | Data | Versão | Autores | Descrição |
 |--|--|--|--|
-| 14/09/2021 | 1.0 | Samuel Pereira | Criação do documento na wiki |
+| 14/09/2021 | 0.1 | Samuel Pereira | Criação do documento na wiki |
+| 15/09/2021 | 1.0 | Samuel Pereira | Atualização de tons de escuro |
 
 ## Guia de Identidade Visual
 
