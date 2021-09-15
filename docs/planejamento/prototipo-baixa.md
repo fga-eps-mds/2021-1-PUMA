@@ -40,5 +40,6 @@ O protótipo inicial foi desenvolvido buscando abordar as principais telas envol
 Devido a restrições de tempo e circunstâncias organizacionais da equipe, o protótipo de baixa fidelidade foi utilizado principalmente como base para o desenvolvimento da protótipo de alta fidelidade, não havendo uma validação direta desse documento.
 
 ## Referências
-AQUINO, Wagner. Protótipos de Baixa fidelidade x Alta fidelidade. Qual escolher para seu produto?. Medium. 2020. Disponível em: https://medium.com/pan-design/prot%C3%B3tipos-de-baixa-fidelidade-x-alta-fidelidade-qual-escolher-para-seu-produto-6f3d0f95733c. Acesso em: 15 set. 2021.
+AQUINO, Wagner. Protótipos de Baixa fidelidade x Alta fidelidade. Qual escolher para seu produto?. Medium. 2020. Disponível em: https://medium.com/pan-design/prot%C3%B3tipos-de-baixa-fidelidade-x-alta-fidelidade-qual-escolher-para-seu-produto-6f3d0f95733c. Acesso em: 15 set. 2021. <br>
+
 VIEIRA, Danielle. Startup Sorocaba: O que são protótipos de baixa e alta fidelidade?. Medium. Disponível em: https://startupsorocaba.com/startup-sorocaba-o-que-sao-prototipos-de-baixa-e-alta-fidelidade/. Acesso em: 15 set. 2021.
