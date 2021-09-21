@@ -1,6 +1,7 @@
 | Data | Versão | Autores | Descrição |
 |--|--|--|--|
 | 11/09/2021 | 1.0 | Luís Taira | Criação do documento |
+| 21/09/2021 | 1.0 | Luís Taira | Adição do quadro de conhecimento |
 
 # Resultados da Sprint 1
 Reunião realizada em 10/9/2021
@@ -62,3 +63,7 @@ A falta de maturidade e de organização de EPS foi uma das causas de o time de 
 O time de EPS precisa organizar suas entregas e conseguir gerênciar melhor o time, acompanhando mais de perto o andamento das issues de MDS e promovendo a boa comunicação entre todos.
 
 O time de MDS precisa se dedicar para aprender as tecnologias e não deixar mais dívida técnica, que só complica mais as sprints sequintes, e se organizar para não faltar mais em dailies e reuniões.
+
+## Quadro de conhecimento depois da sprint 1
+
+![](../../assets/conhecimento/sprint1.png)

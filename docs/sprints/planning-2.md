@@ -9,7 +9,8 @@ Reunião realizada em 10/9/2021
 | Membro | Presente | Observação |
 |--|--|--|
 |Artur Vinicius Dias Nunes| Sim |  |
-|EduarSaiu antes do fim da reuniãoiel Marques Tiveron| Sim |  |
+|Tiveron| Sim |  |
+|Eduardo| Sim |  |
 |Giulia Domingues de Alcantara| Sim |  |
 |João Pedro de Aquino Corrêa Martins| Não | Estava passando mal |
 |Levi de Oliveira Queiroz| Não |  |
@@ -47,7 +48,6 @@ Reunião realizada em 10/9/2021
 | Definir liçensa do projeto | Eduardo |
 | Treinamento de teste unitário | Tiveron |
 | Criar guia de contribuição | João |
-|  |  |
 
 # Issues para o time todo
 

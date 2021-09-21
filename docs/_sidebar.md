@@ -16,4 +16,7 @@
     - [Resultados Sprint 1](/sprints/review-1.md)
   - **Sprint 2**
     - [Planejamento Sprint 2](/sprints/planning-2.md)
+    - [Resultados Sprint 2](/sprints/review-2.md)
+  - **Sprint 3**
+    - [Planejamento Sprint 3](/sprints/planning-3.md)
 - [Banco de dados](/bancodedados/bancos-de-dados.md)

@@ -1,6 +1,7 @@
 | Data | Versão | Autores | Descrição |
 |--|--|--|--|
 | 11/09/2021 | 1.0 | Luís Taira | Criação do documento |
+| 21/09/2021 | 1.0 | Luís Taira | Adição do quadro de conhecimento |
 
 # Planejamento da Sprint 1
 Reunião realizada em 3/9/2021
@@ -9,7 +10,8 @@ Reunião realizada em 3/9/2021
 | Membro | Presente | Observação |
 |--|--|--|
 |Artur Vinicius Dias Nunes| Sim |  |
-|EduarSaiu antes do fim da reuniãoiel Marques Tiveron| Sim |  |
+|Tiveron| Sim |  |
+|Eduardo| Sim |  |
 |Giulia Domingues de Alcantara| Sim | Saiu antes do fim da reunião |
 |João Pedro de Aquino Corrêa Martins| Sim |  |
 |Levi de Oliveira Queiroz| Sim | Saiu antes do fim da reunião |
@@ -55,3 +57,7 @@ Reunião realizada em 3/9/2021
 * Foi começado o Produduct Building (PBB). 
 * MDS participou pouco do PBB por não entender direito o que estava acontecendo.
 * Levi, Nícolas e Giulia saíram antes do final da reunião.
+
+## Quadro de conhecimento depois da sprint 0
+
+![](../../assets/conhecimento/sprint0.png)
