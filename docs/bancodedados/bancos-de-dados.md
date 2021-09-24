@@ -21,7 +21,7 @@ PUMA é um software de aproximação entre agentes externos, que propõem proble
 &emsp;&emsp;SUBJECT <br>
 &emsp;&emsp;CLASS <br>
 &emsp;&emsp;FILE <br>
-&emsp;&emsp;SUBAREAS <br>
+&emsp;&emsp;SUBAREA <br>
 
 ### ATRIBUTOS
 
@@ -30,8 +30,8 @@ PUMA é um software de aproximação entre agentes externos, que propõem proble
 &emsp;&emsp;PROFESSOR (regNumber, **userId**) <br>
 &emsp;&emsp;JURIDICAL_AGENT (**userId**, cnpj, cep, companyName, socialReason) <br>
 &emsp;&emsp;PHYSICAL_AGENT (**userId**, cpf) <br>
-&emsp;&emsp;PROJECT (**projectId**, name, description, description (problem, expectedResult, knowledgeArea)) <br>
-&emsp;&emsp;SUBAREAS (**subAreaId**, description) <br>
+&emsp;&emsp;PROJECT (**projectId**, name, description (problem, expectedResult, knowledgeArea)) <br>
+&emsp;&emsp;SUBAREA (**subAreaId**, description) <br>
 &emsp;&emsp;SUBJECT (**subjectId**, name, courseSyllabus) <br>
 &emsp;&emsp;CLASS (**classId**, subjectTerm, code) <br>
 &emsp;&emsp;FILE (**fileId**, projectId, filename, byteContent) <br>
@@ -64,11 +64,11 @@ PUMA é um software de aproximação entre agentes externos, que propõem proble
 
 ## Diagrama Entidade Relacionamento
 
-![DER](../assets/bancodedados/PUMA_Conceitual.png)
+![DER](../assets/bancodedados/Conceitual_PUMA.png)
 
 ## Diagrama Lógico
 
-![DL](../assets/bancodedados/PUMA_Logico.png)
+![DL](../assets/bancodedados/Logico_PUMA.png)
 
 ## Referência
 
