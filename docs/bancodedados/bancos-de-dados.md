@@ -3,6 +3,7 @@
 | ---- | ------ | ------- | --------- |
 | 11/09/2021 | 1.0 | Gabriel Tiveron | Criação da documentação do Banco de dados |
 | 23/09/2021 | 1.1 | Gabriel Tiveron, João Pedro, Samuel Pereira | Atualização do ME-R |
+| 24/09/2021 | 1.2 | Gabriel Tiveron, Samuel Pereira | Atualização DE-R e DL |
 
 ## Breve descrição do Produto
 
@@ -16,7 +17,7 @@ PUMA é um software de aproximação entre agentes externos, que propõem proble
 &emsp;&emsp;&emsp;&emsp;STUDENT <br>
 &emsp;&emsp;&emsp;&emsp;PROFESSOR <br>
 &emsp;&emsp;&emsp;&emsp;JURIDICAL_AGENT <br>
-&emsp;&emsp;PHYSICAL_AGENT <br>
+&emsp;&emsp;&emsp;&emsp;PHYSICAL_AGENT <br>
 &emsp;&emsp;PROJECT <br>
 &emsp;&emsp;SUBJECT <br>
 &emsp;&emsp;CLASS <br>
@@ -33,7 +34,7 @@ PUMA é um software de aproximação entre agentes externos, que propõem proble
 &emsp;&emsp;PROJECT (**projectId**, name, description (problem, expectedResult, knowledgeArea)) <br>
 &emsp;&emsp;SUBAREA (**subAreaId**, description) <br>
 &emsp;&emsp;SUBJECT (**subjectId**, name, courseSyllabus) <br>
-&emsp;&emsp;CLASS (**classId**, subjectTerm, code) <br>
+&emsp;&emsp;CLASS (**classId**, subjectTerm, code, regNumber, subjectId) <br>
 &emsp;&emsp;FILE (**fileId**, projectId, filename, byteContent) <br>
 
 ### RELACIONAMENTOS
