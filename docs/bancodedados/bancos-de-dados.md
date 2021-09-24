@@ -2,6 +2,7 @@
 | Data | Versão | Autores | Descrição |
 | ---- | ------ | ------- | --------- |
 | 11/09/2021 | 1.0 | Gabriel Tiveron | Criação da documentação do Banco de dados |
+| 23/09/2021 | 1.1 | Gabriel Tiveron, João Pedro, Samuel Pereira | Atualização do ME-R |
 
 ## Breve descrição do Produto
 
@@ -9,53 +10,57 @@ PUMA é um software de aproximação entre agentes externos, que propõem proble
 
 ## Modelo Entidade-Relacionamento
 
-### Entidades
+### ENTIDADES
 
-- ALUNO
-  - *matricula*
-  - email
-  - nome
-  - sobrenome
-  - senha
-- DISCIPLINA
-  - *id*
-  - nome
-  - descricao
-- PROFESSOR
-  - *matricula*
-  - email
-  - nome
-  - sobrenome
-  - administrador
-  - senha
-- PROJETO
-  - *id*
-  - concluido
-  - aprovado
-  - descricao
-- AGENTE_EXTERNO
-  - *id*
-  - email
-  - nome_comum
-  - senha
-  - descricao
+&emsp;&emsp;USER <br>
+&emsp;&emsp;&emsp;&emsp;STUDENT <br>
+&emsp;&emsp;&emsp;&emsp;PROFESSOR <br>
+&emsp;&emsp;&emsp;&emsp;JURIDICAL_AGENT <br>
+&emsp;&emsp;PHYSICAL_AGENT <br>
+&emsp;&emsp;PROJECT <br>
+&emsp;&emsp;SUBJECT <br>
+&emsp;&emsp;CLASS <br>
+&emsp;&emsp;FILE <br>
+&emsp;&emsp;SUBAREAS <br>
 
-### Relacionamentos
+### ATRIBUTOS
 
-- PROFESSOR - *ministra* - DISCIPLINA
-  - Um PROFESSOR ministra de 0 a N DISCIPLINA e uma DISCIPLINA é ministrada por apenas 1 professor.
+&emsp;&emsp;USER (**userId**, fullName, email, passwordHash, phoneNumber, isAdmin) <br>
+&emsp;&emsp;STUDENT (regNumber, **userId**, softSkills) <br>
+&emsp;&emsp;PROFESSOR (regNumber, **userId**) <br>
+&emsp;&emsp;JURIDICAL_AGENT (**userId**, cnpj, cep, companyName, socialReason) <br>
+&emsp;&emsp;PHYSICAL_AGENT (**userId**, cpf) <br>
+&emsp;&emsp;PROJECT (**projectId**, name, description, description (problem, expectedResult, knowledgeArea)) <br>
+&emsp;&emsp;SUBAREAS (**subAreaId**, description) <br>
+&emsp;&emsp;SUBJECT (**subjectId**, name, courseSyllabus) <br>
+&emsp;&emsp;CLASS (**classId**, subjectTerm, code) <br>
+&emsp;&emsp;FILE (**fileId**, projectId, filename, byteContent) <br>
 
-- ALUNO - *cursa* - DISCIPLINA
-  - Um ALUNO cursa de 0 a 1 DISCIPLINA e uma DISCIPLINA é cursada por N alunos.
+### RELACIONAMENTOS
 
-- ALUNO - *executa* - PROJETO
-  - Um ALUNO executa 0 a N PROJETO e um projeto é executado por 1 a N ALUNO.
-
-- PROJETO - *pertence* - DISCIPLINA
-  - Um PROJETO  pertence a 1 DISCIPLINA e uma DISCIPLINA possui 1 a N PROJETO.
-
-- AGENTE_EXTERNO - *propoe* - PROJETO
-  - Um AGENTE_EXTERNO propoe 1 a N PROJETO e um PROJETO é proposto por apenas 1 AGENTE_EXTERNO
+&emsp;&emsp;USER - submits - PROJECT <br>
+&emsp;&emsp;&emsp;&emsp;Um usuário submete um ou mais projetos e um projeto é proposto por apenas um usuário. <br>
+&emsp;&emsp;&emsp;&emsp;Cardinalidade: 1:N. <br>
+<br>
+&emsp;&emsp;STUDENT - participates - CLASS <br>
+&emsp;&emsp;&emsp;&emsp;Um estudante participa de uma ou mais turmas e uma turma é participada por um ou mais alunos. <br>
+&emsp;&emsp;&emsp;&emsp;Cardinalidade: N:M <br>
+<br>
+&emsp;&emsp;STUDENT - executes - PROJECT <br>
+&emsp;&emsp;&emsp;&emsp;Um estudante executa um ou mais projetos e um projeto é executado por um ou mais alunos. <br>
+&emsp;&emsp;&emsp;&emsp;Cardinalidade: N:M <br>
+<br>
+&emsp;&emsp;PROFESSOR - lectures - SUBJECT <br>
+&emsp;&emsp;&emsp;&emsp;Um professor pode lecionar várias disciplinas e uma disciplina pode ser lecionada por vários professores. <br>
+&emsp;&emsp;&emsp;&emsp;Cardinalidade: N:M. <br>
+<br>
+&emsp;&emsp;PROJECT - has - FILE <br>
+&emsp;&emsp;&emsp;&emsp;Um projeto pode possuir vários arquivos e um arquivo pertence a somente um projeto. <br>
+&emsp;&emsp;&emsp;&emsp;Cardinalidade: 1:N. <br>
+<br>
+&emsp;&emsp;SUBAREA - identifies - SUBJECT <br>
+&emsp;&emsp;&emsp;&emsp;Uma sub-área pode identificar várias disciplinas e uma disciplina é identificada por uma ou mais sub-áreas. <br>
+&emsp;&emsp;&emsp;&emsp;Cardinalidade: N:M. <br>
 
 ## Diagrama Entidade Relacionamento
 
