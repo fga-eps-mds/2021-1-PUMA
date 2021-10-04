@@ -131,7 +131,7 @@ O banco de dados de todo o projeto fica no serviço database.
 Diagrama de pacotes Front End
 
 
-![](../assets/arquitetura/pacote-project-service.png)
+![](../assets/arquitetura/diagrama_pacotes_project.png)
 
 Diagrama de pacotes Project Service
 
@@ -139,14 +139,14 @@ Diagrama de pacotes Project Service
 
 Diagrama de pacotes API Gateway
 
-![](../assets/arquitetura/pacote-alocate-service.png)
+![](../assets/arquitetura/diagrama_pacotes_alocate.png)
 
 Diagrama de pacotes Alocate Service
 
-![](../assets/arquitetura/pacote-notify.png)
+![](../assets/arquitetura/diagrama_pacotes_notify.png)
 
 Diagrama de pacotes Notify Service
 
-![](../assets/arquitetura/pacote-user-service.png)
+![](../assets/arquitetura/diagrama_pacotes_user.png)
 
 Diagrama de pacotes User Service
