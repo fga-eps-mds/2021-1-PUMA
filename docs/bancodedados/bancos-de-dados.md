@@ -13,7 +13,7 @@ PUMA é um software de aproximação entre agentes externos, que propõem proble
 
 ### ENTIDADES
 
-&emsp;&emsp;USER <br>
+&emsp;&emsp;COMMON_USER <br>
 &emsp;&emsp;&emsp;&emsp;STUDENT <br>
 &emsp;&emsp;&emsp;&emsp;PROFESSOR <br>
 &emsp;&emsp;&emsp;&emsp;JURIDICAL_AGENT <br>
@@ -23,10 +23,11 @@ PUMA é um software de aproximação entre agentes externos, que propõem proble
 &emsp;&emsp;CLASS <br>
 &emsp;&emsp;FILE <br>
 &emsp;&emsp;SUBAREA <br>
+&emsp;&emsp;KNOWLEDGE_AREA <br>
 
 ### ATRIBUTOS
 
-&emsp;&emsp;USER (**userId**, fullName, email, passwordHash, phoneNumber, isAdmin) <br>
+&emsp;&emsp;COMMON_USER (**userId**, fullName, email, passwordHash, phoneNumber, isAdmin) <br>
 &emsp;&emsp;STUDENT (regNumber, **userId**, softSkills) <br>
 &emsp;&emsp;PROFESSOR (regNumber, **userId**) <br>
 &emsp;&emsp;JURIDICAL_AGENT (**userId**, cnpj, cep, companyName, socialReason) <br>
@@ -39,7 +40,7 @@ PUMA é um software de aproximação entre agentes externos, que propõem proble
 
 ### RELACIONAMENTOS
 
-&emsp;&emsp;USER - submits - PROJECT <br>
+&emsp;&emsp;COMMON_USER - submits - PROJECT <br>
 &emsp;&emsp;&emsp;&emsp;Um usuário submete um ou mais projetos e um projeto é proposto por apenas um usuário. <br>
 &emsp;&emsp;&emsp;&emsp;Cardinalidade: 1:N. <br>
 <br>
@@ -61,6 +62,10 @@ PUMA é um software de aproximação entre agentes externos, que propõem proble
 <br>
 &emsp;&emsp;SUBAREA - identifies - SUBJECT <br>
 &emsp;&emsp;&emsp;&emsp;Uma sub-área pode identificar várias disciplinas e uma disciplina é identificada por uma ou mais sub-áreas. <br>
+&emsp;&emsp;&emsp;&emsp;Cardinalidade: N:M. <br>
+<br>
+&emsp;&emsp;KNOWLEDGE_AREA - contains - SUBAREA <br>
+&emsp;&emsp;&emsp;&emsp;Uma área do conhecimento pode conter várias subáreas e uma subárea é contida por somente uma área do conhecimento. <br>
 &emsp;&emsp;&emsp;&emsp;Cardinalidade: N:M. <br>
 
 ## Diagrama Entidade Relacionamento
