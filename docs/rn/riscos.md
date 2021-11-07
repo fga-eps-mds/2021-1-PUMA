@@ -24,7 +24,7 @@ Nas sprints finais, o impacto desse risco aumentou mais ainda pois o time ficou 
 
 ### Discórdia entre membros do grupo
 
-<p  align="justify">&nbsp&nbsp&nbsp&nbsp&nbsp&nbspNo começo do projeto foi identificado que isso poderia afetar o projeto. Seu impacto aumentou quando ficou claro que o time de MDS não iria conesguir cumprir suas tarefas e aumentou mais ainda no final, quando ocorreram problemas de comunicação dentro do time de MDS que resultaram em um membro apagando código feito por outro membro e assim, retrabalho.</p>
+<p  align="justify">&nbsp&nbsp&nbsp&nbsp&nbsp&nbspNo começo do projeto foi identificado que isso poderia afetar o projeto. Seu impacto aumentou quando ficou claro que o time de MDS não iria conseguir cumprir suas tarefas e aumentou mais ainda no final, quando ocorreram problemas de comunicação dentro do time de MDS que resultaram em um membro apagando código feito por outro membro e assim, retrabalho.</p>
 
 ### Dificuldade com as tecnologias escolhidas
 
@@ -42,7 +42,7 @@ Nas sprints finais, o impacto desse risco aumentou mais ainda pois o time ficou 
 
 ### Atraso nas entregas
 
-<p  align="justify">&nbsp&nbsp&nbsp&nbsp&nbsp&nbspRisco que pode estar presente em qualquer projeto. No puma, seu impacto foi maior nas primeiras sprints, quando quando foi percebido que várias semanas tinham se passado e o time de MDS não havia entregado nenhuma tarefa.</p>
+<p  align="justify">&nbsp&nbsp&nbsp&nbsp&nbsp&nbspRisco que pode estar presente em qualquer projeto. No puma, seu impacto foi maior nas primeiras sprints, quando foi percebido que várias semanas tinham se passado e o time de MDS não havia entregado nenhuma tarefa.</p>
 <p  align="justify">&nbsp&nbsp&nbsp&nbsp&nbsp&nbspSeu impacto diminuiu quando o time de EPS se envolveu no desenvolvimento e o escopo foi mudado para acomodar o rítmo de desenvolvimento do time, porém permaneceu existente pois o risco de atrasar as entregas ainda eram presentes e seu impacto permaneceu grande porque o tempo que tínhamos para entregar as histórias era menor ainda.</p>
 
 ### Imaturidade na gerência
