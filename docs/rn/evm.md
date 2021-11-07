@@ -41,7 +41,3 @@
 <p  align="justify">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp O comportamento desses gráficos pode ser explicado por vários fenômenos ocorridos durante o projeto.</p>
 <p  align="justify">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Até a sprint 3, o desenvolvimento das histórias de usuário estavam sob a responsabilidade do time de MDS. Valor começou a ser agregado quando EPS começou a desenvolver também.</p>
 <p  align="justify">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp É possível perceber uma queda no valor agregado na sprint 5, seguido por uma grande alta na sprint 8. Isso pode ser explicado por várias histórias estarem sendo desenvolvidas ao mesmo tempo e aconteceu que grandes entregas foram feitas nas sprints 4 e 5, tendo a sprint 5 e 7 poucas entregas e histórias que acumularam e foram de novo entregues juntas na sprint 8.</p>
-<p  align="justify">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp </p>
-<p  align="justify">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp </p>
-<p  align="justify">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp </p>
-<p  align="justify">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp </p>
