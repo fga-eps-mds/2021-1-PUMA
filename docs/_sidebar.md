@@ -1,5 +1,10 @@
 <!-- docs/_sidebar.md -->
 - [Página Inicial](/)
+- **Release N**
+  - [Backlog entregue](/rn/backlog.md)
+  - [EVM](/rn/evm.md)
+  - [Velocity](/rn/velocity.md)
+  - [Burndown de Riscos](/rn/riscos.md)
 - **Produto**
   - [Backlog do Produto](/planejamento/backlog-do-produto.md)
   - [Documento de arquitetura](/planejamento/doc-de-arquitetura.md)
