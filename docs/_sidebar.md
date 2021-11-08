@@ -5,6 +5,7 @@
   - [EVM](/rn/evm.md)
   - [Velocity](/rn/velocity.md)
   - [Burndown de Riscos](/rn/riscos.md)
+  - [Quadros de conhecimento](/rn/conhecimento.md)
 - **Produto**
   - [Backlog do Produto](/planejamento/backlog-do-produto.md)
   - [Documento de arquitetura](/planejamento/doc-de-arquitetura.md)

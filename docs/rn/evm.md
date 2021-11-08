@@ -36,7 +36,7 @@
 ![](../assets/rn/evm/cv19.png)
 
 <p  align="justify">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp A partir desses gráficos, é possível tirar várias conclusões.</p>
-<p  align="justify">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Até a sprinit 3, não havia sido agregado nenhum valor real ao produto, até que na sprint 4 foi mantido um rítmo até a sprint 5, quando o valor se estagnou até a sprint 8, na qual muito valor foi muito agregado. Importante lembrar que o evm não mede a quantidade de trabalho realizado pelo time. Isso pode ser conferido no velocity.</p>
+<p  align="justify">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Até a sprinit 3, não havia sido agregado nenhum valor real ao produto, até que na sprint 4 foi mantido um rítmo até a sprint 5, quando o valor se estagnou até a sprint 8, na qual muito valor foi muito agregado. Importante lembrar que o evm não mede a quantidade de trabalho realizado pelo time. Isso pode ser conferido no <a href='#/rn/velocity.md'>velocity</a>.</p>
 
 <p  align="justify">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp O comportamento desses gráficos pode ser explicado por vários fenômenos ocorridos durante o projeto.</p>
 <p  align="justify">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Até a sprint 3, o desenvolvimento das histórias de usuário estavam sob a responsabilidade do time de MDS. Valor começou a ser agregado quando EPS começou a desenvolver também.</p>
