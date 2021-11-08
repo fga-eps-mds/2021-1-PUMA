@@ -53,7 +53,7 @@
 | Não | CRUD de disciplinas | 06 |
 | Sim | Detalhamento de projeto | 07 |
 
-![](../assets/evm/canvasmvp.png)
+![](../assets/rn/canvasmvp.png)
 * Jornadas de usuários cumpridas
 * O custo foi reavaliado em [EVM](/rn/evm)
 * Funcionalidaeds cimpridas, menos o CRUD de disciplinas
