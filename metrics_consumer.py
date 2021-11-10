@@ -7,7 +7,20 @@ from datetime import date, datetime
 today = datetime.now()
 
 base_url = 'https://sonarcloud.io/api/measures/component_tree?component=fga-eps-mds_2021-1-PUMA-'
-metrics = ['files','functions','complexity','coverage','ncloc','comment_lines_density','duplicated_lines_density','security_rating','tests','test_success_density','test_execution_time','reliability_rating']
+metrics = [
+    'files',
+    'functions',
+    'complexity',
+    'coverage',
+    'ncloc',
+    'comment_lines_density',
+    'duplicated_lines_density',
+    'security_rating',
+    'tests',
+    'test_success_density',
+    'test_execution_time',
+    'reliability_rating'
+]
 
 file_name = 'fga-eps-mds-2021_1-PUMA'
 
